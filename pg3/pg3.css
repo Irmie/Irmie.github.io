@@ -1,0 +1,68 @@
+
+h1{
+  font-family: 'Moo Lah Lah', cursive;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1em; 
+    border: 5px solid green;
+    padding: 0px;
+    margin-top: 50px;
+    color: black;
+}
+
+h4{
+  font-family: 'Shojumaru', cursive;
+}
+footer p{
+    text-decoration: none;
+    color: rgb(96, 126, 38);
+    padding-right: 30px;
+    text-shadow: 1px 1px black;
+    font-size: 16px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(140, 167, 100, 0.884);
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border: 2px solid rgb(120, 145, 72);
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(96, 126, 38);
+  padding-right: 30px;
+  text-shadow: 1px 1px black;
+  font-size: 16px;
+}
+
+body{
+  background-color: rgb(140, 167, 100);
+  position: relative
+}
+
+.stickyfooter{
+    position: sticky;
+    top: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(140, 167, 100, 0.884);
+
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(120, 145, 72);
+}
